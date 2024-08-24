@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Email Subscribe</title>
+  <script src="https://cdn.tailwindcss.com"></script> <!-- Ensure Tailwind CSS is loaded -->
+</head>
+<body class="bg-gray-300">
+  <div class="flex items-center justify-center min-h-screen">
+    <div class="bg-white p-10 rounded-lg">
+      <div class="flex flex-col md:flex-row">
+        <img src="./src/assets/headphone.jpeg" class="h-auto md:h-full mr-8 hover:scale-125 transition-transform duration-1000" alt="Headphone">
+        <div class="flex flex-col items-center md:items-start">
+          <button class="bg-black text-white text-xs py-1 px-3 inline-block  rounded-full text-center">Free Shipping</button>
+          <p class="text-lg font-bold font-sans pb-4">Rather Kraken kitty Edt Gaming <br>Headset Quartz</p>
+          <p class="line-through text-xs font-bold pt-4">$799</p>
+          <p class="font-serif font-extrabold text-4xl pt-2 pb-4">$599</p>
+          <p class="text-xs text-gray-400">The offer is valid until April 3 or as long as stock lasts!</p>
+          
+          <!-- Button with hover effect -->
+          <button class="group bg-blue-500 p-2 pb-4 rounded-md w-full text-white text-xs my-5 border-b-8 border-blue-600 hover:bg-blue-800 hover:border-opacity-0 duration-300 relative">
+            <p class="transition-transform duration-500 transform translate-y-0 group-hover:translate-y-2 origin-top">
+              Add to cart
+            </p>
+          </button>
+          
+          <!-- Stock Information -->
+          <div class="flex items-center mt-2">
+            <div class="bg-green-300 w-3 h-3 rounded-full inline-block mr-2 hover:animate-ping duration-500"></div>
+            <span class="text-sm font-semibold">50+ pcs. in stock</span>
+          </div>
+          
+          <!-- Action Buttons -->
+          <div class="flex flex-row items-center gap-4 pt-4">
+            <div class="flex p-3 text-center rounded-md border cursor-pointer border-gray-400 transform hover:scale-110 transition-transform duration-300">
+              <img class="w-4 h-4 inline" src="./src/assets/balance.png" alt="Balance">
+              <span class="text-xs pl-2 font-semibold">Add to cart</span>
+            </div>
+            <div class="flex p-3 text-center rounded-md border cursor-pointer border-gray-400 transform hover:scale-110 transition-transform duration-300">
+              <img class="w-4 h-4 inline" src="./src/assets/heart.png" alt="Heart">
+              <span class="text-xs pl-2 font-semibold">Add to wishlist</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

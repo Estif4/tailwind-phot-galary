@@ -7,46 +7,139 @@
   <title>Email Subscribe</title>
   <script src="https://cdn.tailwindcss.com"></script> <!-- Ensure Tailwind CSS is loaded -->
 </head>
-<body class="bg-gray-300">
-  <div class="flex items-center justify-center min-h-screen">
-    <div class="bg-white p-10 rounded-lg">
-      <div class="flex flex-col md:flex-row">
-        <img src="./src/assets/headphone.jpeg" class="h-auto md:h-full mr-8 hover:scale-125 transition-transform duration-1000" alt="Headphone">
-        <div class="flex flex-col items-center md:items-start">
-          <button class="bg-black text-white text-xs py-1 px-3 inline-block  rounded-full text-center">Free Shipping</button>
-          <p class="text-lg font-bold font-sans pb-4">Rather Kraken kitty Edt Gaming <br>Headset Quartz</p>
-          <p class="line-through text-xs font-bold pt-4">$799</p>
-          <p class="font-serif font-extrabold text-4xl pt-2 pb-4">$599</p>
-          <p class="text-xs text-gray-400">The offer is valid until April 3 or as long as stock lasts!</p>
-          
-          <!-- Button with hover effect -->
-          <button class="group bg-blue-500 p-2 pb-4 rounded-md w-full text-white text-xs my-5 border-b-8 border-blue-600 hover:bg-blue-800 hover:border-opacity-0 duration-300 relative">
-            <p class="transition-transform duration-500 transform translate-y-0 group-hover:translate-y-2 origin-top">
-              Add to cart
-            </p>
+<body class="bg-cyan-100">
+  <div class="flex  items-center justify-center min-h-screen ">
+    <div class=" flex flex-col  bg-white rounded-lg min-h-screen m-24 w-screen pt-2 text-center md:pt-32 md:px-48   ">
+      <div class="flex flex-col md:flex-row gap-4 md:gap-8 justify-end w-full ">
+        <div class="">
+          <button class=" md:p-2  font-semibold  hover:underline  hover:underline-offset-8 transition-all duration-300">
+          Vector
           </button>
-          
-          <!-- Stock Information -->
-          <div class="flex items-center mt-2">
-            <div class="bg-green-300 w-3 h-3 rounded-full inline-block mr-2 hover:animate-ping duration-500"></div>
-            <span class="text-sm font-semibold">50+ pcs. in stock</span>
-          </div>
-          
-          <!-- Action Buttons -->
-          <div class="flex flex-row items-center gap-4 pt-4">
-            <div class="flex p-3 text-center rounded-md border cursor-pointer border-gray-400 transform hover:scale-110 transition-transform duration-300">
-              <img class="w-4 h-4 inline" src="./src/assets/balance.png" alt="Balance">
-              <span class="text-xs pl-2 font-semibold">Add to cart</span>
-            </div>
-            <div class="flex p-3 text-center rounded-md border cursor-pointer border-gray-400 transform hover:scale-110 transition-transform duration-300">
-              <img class="w-4 h-4 inline" src="./src/assets/heart.png" alt="Heart">
-              <span class="text-xs pl-2 font-semibold">Add to wishlist</span>
-            </div>
-          </div>
+        </div>
+        <div class="">
+          <button class=" md:p-2  font-semibold  hover:underline  hover:underline-offset-8 transition-all duration-300">
+          Illustration
+          </button>
+        </div>
+        <div class="">
+          <button class=" md:p-2  font-semibold  hover:underline  hover:underline-offset-8 transition-all duration-300">
+          Images
+          </button>
+        </div>
+        <div class="">
+          <button class=" md:p-2  font-semibold  hover:underline  hover:underline-offset-8 transition-all duration-300">
+          icons
+          </button>
         </div>
       </div>
-    </div>
+      <div class="flex flex-col md:flex-row justify-between mt-6 md:mt-16 ">
+        <div class="relative ">
+          <input type="text" placeholder="Search" class=" text-sm opacity-100 p-4 border-b-2 text-left rounded-lg pl-8 pr-20">
+          <img src="./src/assets/search.png" class="absolute w-6 h-6 top-5 right-8 md:top-5 md:right-0 cursor-pointer hover:scale-110  ">
+        </div>
+        <div class="">
+          <button class="bg-black mt-2 md:mt-0 px-6 py-2 w-full rounded-md border border-black text-white hover:text-black hover:bg-white">Upload</button>
+        </div>
+        
+      </div>
+      <div class="grid md:grid-cols-3 mt-12 gap-2">
+        <div class="relative  group  "><img class=" w-full h-64 " class="w-full" src="src/assets/image1.jpeg">
+          <div class="flex flex-row justify-between gap-24 group-hover:opacity-100 duration-500 opacity-0  w-full  absolute bottom-0 left-0 bg-black p-2 bg-opacity-25">
+            <div>
+          <p class=" text-gray-200 ">Abstract painting</p>
+          <p class=" text-gray-200 ">245 like </p>
+        </div>
+          <div class= ""><img class="w-5 h-5 mt-4 " src="./src/assets/favorite.png"></div></div></div>
+          <div class="relative  group  "><img class=" w-full h-64 " class="w-full" src="src/assets/image2.jpeg">
+            <div class="flex flex-row justify-between gap-24 group-hover:opacity-100 duration-500 opacity-0  w-full  absolute bottom-0 left-0 bg-black p-2 bg-opacity-25">
+              <div>
+            <p class=" text-gray-200 ">Abstract painting</p>
+            <p class=" text-gray-200 ">245 like </p>
+          </div>
+            <div class= ""><img class="w-5 h-5 mt-4 " src="./src/assets/favorite.png"></div></div></div>
+            <div class="relative  group  "><img class=" w-full h-64 " class="w-full" src="src/assets/image3.jpeg">
+              <div class="flex flex-row justify-between gap-24 group-hover:opacity-100 duration-500 opacity-0  w-full  absolute bottom-0 left-0 bg-black p-2 bg-opacity-25">
+                <div>
+              <p class=" text-gray-200 ">Abstract painting</p>
+              <p class=" text-gray-200 ">245 like </p>
+            </div>
+              <div class= ""><img class="w-5 h-5 mt-4 " src="./src/assets/favorite.png"></div></div></div>
+              <div class="relative  group  "><img class=" w-full h-64 " class="w-full" src="src/assets/image3.jpeg">
+                <div class="flex flex-row justify-between gap-24 group-hover:opacity-100 duration-500 opacity-0  w-full  absolute bottom-0 left-0 bg-black p-2 bg-opacity-25">
+                  <div>
+                <p class=" text-gray-200 ">Abstract painting</p>
+                <p class=" text-gray-200 ">245 like </p>
+              </div>
+                <div class= ""><img class="w-5 h-5 mt-4 " src="./src/assets/favorite.png"></div></div></div>
+                <div class="relative  group  "><img class=" w-full h-64 " class="w-full" src="src/assets/image4.jpeg">
+                  <div class="flex flex-row justify-between gap-24 group-hover:opacity-100 duration-500 opacity-0  w-full  absolute bottom-0 left-0 bg-black p-2 bg-opacity-25">
+                    <div>
+                  <p class=" text-gray-200 ">Abstract painting</p>
+                  <p class=" text-gray-200 ">245 like </p>
+                </div>
+                  <div class= ""><img class="w-5 h-5 mt-4 " src="./src/assets/favorite.png"></div></div></div>
+                  <div class="relative  group  "><img class=" w-full h-64 " class="w-full" src="src/assets/image5.jpeg">
+                    <div class="flex flex-row justify-between gap-24 group-hover:opacity-100 duration-500 opacity-0  w-full  absolute bottom-0 left-0 bg-black p-2 bg-opacity-25">
+                      <div>
+                    <p class=" text-gray-200 ">Abstract painting</p>
+                    <p class=" text-gray-200 ">245 like </p>
+                  </div>
+                    <div class= ""><img class="w-5 h-5 mt-4 " src="./src/assets/favorite.png"></div></div></div>
+                    <div class="relative  group  "><img class=" w-full h-64 " class="w-full" src="src/assets/image6.jpeg">
+                      <div class="flex flex-row justify-between gap-24 group-hover:opacity-100 duration-500 opacity-0  w-full  absolute bottom-0 left-0 bg-black p-2 bg-opacity-25">
+                        <div>
+                      <p class=" text-gray-200 ">Abstract painting</p>
+                      <p class=" text-gray-200 ">245 like </p>
+                    </div>
+                      <div class= ""><img class="w-5 h-5 mt-4 " src="./src/assets/favorite.png"></div></div></div>
+                      <div class="relative  group  "><img class=" w-full h-64 " class="w-full" src="src/assets/image7.jpeg">
+                        <div class="flex flex-row justify-between gap-24 group-hover:opacity-100 duration-500 opacity-0  w-full  absolute bottom-0 left-0 bg-black p-2 bg-opacity-25">
+                          <div>
+                        <p class=" text-gray-200 ">Abstract painting</p>
+                        <p class=" text-gray-200 ">245 like </p>
+                      </div>
+                        <div class= ""><img class="w-5 h-5 mt-4 " src="./src/assets/favorite.png"></div></div></div>
+                        <div class="relative  group  "><img class=" w-full h-64 " class="w-full" src="src/assets/image8.jpeg">
+                          <div class="flex flex-row justify-between gap-24 group-hover:opacity-100 duration-500 opacity-0  w-full  absolute bottom-0 left-0 bg-black p-2 bg-opacity-25">
+                            <div>
+                          <p class=" text-gray-200 ">Abstract painting</p>
+                          <p class=" text-gray-200 ">245 like </p>
+                        </div>
+                          <div class= ""><img class="w-5 h-5 mt-4 " src="./src/assets/favorite.png"></div></div></div>
+                          <div class="relative  group  "><img class=" w-full h-64 " class="w-full" src="src/assets/image9.jpeg">
+                            <div class="flex flex-row justify-between gap-24 group-hover:opacity-100 duration-500 opacity-0  w-full  absolute bottom-0 left-0 bg-black p-2 bg-opacity-25">
+                              <div>
+                            <p class=" text-gray-200 ">Abstract painting</p>
+                            <p class=" text-gray-200 ">245 like </p>
+                          </div>
+                            <div class= ""><img class="w-5 h-5 mt-4 " src="./src/assets/favorite.png"></div></div></div>
+                            <div class="relative  group  "><img class=" w-full h-64 " class="w-full" src="src/assets/image10.jpeg">
+                              <div class="flex flex-row justify-between gap-24 group-hover:opacity-100 duration-500 opacity-0  w-full  absolute bottom-0 left-0 bg-black p-2 bg-opacity-25">
+                                <div>
+                              <p class=" text-gray-200 ">Abstract painting</p>
+                              <p class=" text-gray-200 ">245 like </p>
+                            </div>
+                              <div class= ""><img class="w-5 h-5 mt-4 " src="./src/assets/favorite.png"></div></div></div>
+                              <div class="relative  group  "><img class=" w-full h-64 " class="w-full" src="src/assets/image11.jpeg">
+                                <div class="flex flex-row justify-between gap-24 group-hover:opacity-100 duration-500 opacity-0  w-full  absolute bottom-0 left-0 bg-black p-2 bg-opacity-25">
+                                  <div>
+                                <p class=" text-gray-200 ">Abstract painting</p>
+                                <p class=" text-gray-200 ">245 like </p>
+                              </div>
+                                <div class= ""><img class="w-5 h-5 mt-4 " src="./src/assets/favorite.png"></div></div></div>
+                                <div class="relative  group  "><img class=" w-full h-64 " class="w-full" src="src/assets/image12.jpeggit remote set-url origin NEW_REPOSITORY_URL
+                                  ">
+                                  <div class="flex flex-row justify-between gap-24 group-hover:opacity-100 duration-500 opacity-0  w-full  absolute bottom-0 left-0 bg-black p-2 bg-opacity-25">
+                                    <div>
+                                  <p class=" text-gray-200 ">Abstract painting</p>
+                                  <p class=" text-gray-200 ">245 like </p>
+                                </div>
+                                  <div class= ""><img class="w-5 h-5 mt-4 " src="./src/assets/favorite.png"></div></div></div>
+        </div>
   </div>
+  
+</div>
+
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
 </body>
